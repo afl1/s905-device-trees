@@ -69,7 +69,7 @@
 		//dev_name = "dvbfe";
 		status = "okay";
 		dtv_demod0 = "Avl6211";
-		dtv_demod0_i2c_adap_id = <2>;
+		dtv_demod0_i2c_adap_id = <1>;
 		dtv_demod0_i2c_addr = <0x60>;
  		dtv_demod0_reset_value = <0>;
 		dtv_demod0_reset_gpio-gpios = <&gpio GPIODV_13 GPIO_ACTIVE_LOW>;
